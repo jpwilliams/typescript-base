@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "",
   "main": "lib/index.js",
-  "types": "index.d.ts",
   "scripts": {
     "start": "node lib/index.js",
     "clean": "rm -rf lib",
@@ -24,8 +23,7 @@
   },
   "homepage": "https://github.com/jpwilliams/typescript-base#readme",
   "files": [
-    "lib",
-    "index.d.ts"
+    "lib"
   ],
   "devDependencies": {
     "@types/jest": "^24.0.24",
