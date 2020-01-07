@@ -9,7 +9,9 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "build": "tsc",
-    "build:watch": "onchange 'src/**/*' -- npm run build"
+    "build:watch": "onchange 'src/**/*' -- npm run build",
+    "build:docs": "typedoc",
+    "build:docs:watch": "onchange 'src/**/*' -- npm run build:docs"
   },
   "repository": {
     "type": "git",
@@ -41,6 +43,7 @@
     "jest": "^24.9.0",
     "onchange": "^6.1.0",
     "ts-jest": "^24.2.0",
+    "typedoc": "^0.15.6",
     "typescript": "^3.7.3"
   },
   "dependencies": {}
