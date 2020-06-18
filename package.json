@@ -43,7 +43,7 @@
     "jest": "^24.9.0",
     "onchange": "^7.0.2",
     "ts-jest": "^24.3.0",
-    "typedoc": "^0.16.11",
+    "typedoc": "^0.17.7",
     "typescript": "^3.9.5"
   },
   "dependencies": {}
